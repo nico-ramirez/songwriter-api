@@ -1,0 +1,28 @@
+{
+  "name": "songwriter-api",
+  "version": "1.0.0",
+  "description": "Songwriter API services for Songwriter webstite, mobile and desktop application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico-ramirez/songwriter-api.git"
+  },
+  "author": "Nicolas Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nico-ramirez/songwriter-api/issues"
+  },
+  "homepage": "https://github.com/nico-ramirez/songwriter-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0"
+  }
+}
